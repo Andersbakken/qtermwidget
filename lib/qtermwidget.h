@@ -287,6 +287,9 @@ public slots:
 
     void toggleShowSearchBar();
 
+    void saveHistory(QIODevice *device);
+
+    void sendCommand(const QString &command);
 protected:
     virtual void resizeEvent(QResizeEvent *);
 
